@@ -115,32 +115,6 @@ node *del_last(node *h)
     return h;
 }
 
-// node *merge(node *a, node *b)
-// {
-//     node *t,*p,*q;
-//     p=a;
-//     q=b;
-//     while(p!=NULL || q!=NULL)
-//     {
-//         while(p->data<q->data && p!=NULL && q!=NULL)
-//         {
-//             t=p;
-//             p=p->next;
-//         }
-//         t->next=q;
-//         while(q->data<p->data && p!=NULL && q!=NULL)
-//         {
-//             t=q;
-//             q=q->next;
-//         }
-//         t->next=p;
-//     }
-//     if(a->data<b->data)
-//         return a;
-//     else
-//         return b;
-// }
-
 int main()
 {
     node *h;
@@ -154,13 +128,5 @@ int main()
     traverse(h);
     h=del_last(h);
     traverse(h);
-    
-    // node *p,*q;
-    // p=create();
-    // traverse(p);
-    // q=create();
-    // traverse(q);
-    // p=merge(p,q);
-    // traverse(p);
     return 0;
 }
