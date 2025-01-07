@@ -1,6 +1,8 @@
 - 👋 Hi, I’m @mejustgopal
 - 👀 I’m interested in Coding
-- 🌱 I’m currently learning C
+- 🌱 So far I have learnt Python,C,Html,Css.
+- At present, I'm learning Data Structure.
+- Chill guys! I'm just a beginner now.
 
 <!---
 mejustgopal/mejustgopal is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
